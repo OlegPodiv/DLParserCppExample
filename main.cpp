@@ -16,7 +16,7 @@
  *  Support: support@idscan.net
  */
 
-#include "libs/include/DLParser.h"
+#include "libs/linux/include/DLParser.h"
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
