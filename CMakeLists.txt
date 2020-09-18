@@ -3,7 +3,7 @@ project(DLParserCppExample)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#set(CMAKE_SYSTEM_NAME Windows)
+# set(CMAKE_SYSTEM_NAME Windows)
 
 add_executable(DLParserCppExample main.cpp)
 add_library(libidscan_parser SHARED IMPORTED)

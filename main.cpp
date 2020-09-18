@@ -15,8 +15,14 @@
  *
  *  Support: support@idscan.net
  */
+//#define _WIN32
 
+#if defined(_WIN32) || defined(__WIN32__)
+#include "libs/windows/include/DLParser.h"
+#else
 #include "libs/linux/include/DLParser.h"
+#endif
+
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
